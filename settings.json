@@ -1,0 +1,27 @@
+{
+  "glassit.alpha": 220,
+  "window.zoomLevel": 2,
+  "workbench.iconTheme": "vscode-icons",
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "vsicons.associations.files": [
+    {
+      "icon": "bower",
+      "extensions": ["webpack.config.test.js", "myExt2.custom.js"],
+      "filename": true,
+      "format": "svg"
+    }
+  ],
+  // Providing an alternate light-mode icon.
+  // If you want to render a different icon in dark-mode vs. light-mode, set `light` to `true`
+  // to instruct vscode-icons to check for a file matching `file_type_light_<icon>`.
+  "vsicons.associations.folders": [
+
+    { "icon": "www", "extensions": ["Requests"], "format": "svg", "light": true },
+    { "icon": "api", "extensions": ["BuberDinner.Api"], "format": "svg", "light": true },
+    { "icon": "app", "extensions": ["BuberDinner.Application"], "format": "svg", "light": true },
+    { "icon": "module", "extensions": ["BuberDinner.Domain"], "format": "svg", "light": true },
+    { "icon": "Interfaces", "extensions": ["BuberDinner.Contracts"], "format": "svg", "light": true },
+    { "icon": "server", "extensions": ["BuberDinner.Infrastructure"], "format": "svg", "light": true },
+],
+
+}
